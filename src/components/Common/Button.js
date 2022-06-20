@@ -10,7 +10,6 @@ const Button = ({ btnType,label,onClick}) => {
         variant="contained"
         className={ 'btn__cancel'}
       >
-       <img src='https://www.nicepng.com/png/full/251-2519428_0-add-icon-white-png.png' alt='add-icon'/>
        {label} 
       </button>
     </div>

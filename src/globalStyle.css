@@ -227,7 +227,7 @@ font-size: 25px;
 .mui__table{
   margin: auto;
   width: 75%;
-margin-top: 50px;
+  margin-top: 50px;
 }
 .popup__form{
   position:absolute;
@@ -264,15 +264,17 @@ margin-top: 50px;
 }
 
 .mui__table td,.mui__table th {
-  border-bottom: 1px solid grey;
-  background-color: #dddddd;
+  border-bottom: 1px solid rgb(230, 230, 230);
   text-align: left;
   padding: 8px;
   color: black;
 }
 
-.mui__table tr:nth-child(even) {
-  background-color: #dddddd;
+tr:nth-child(odd) {
+  background-color: white !important;
+}
+tr:nth-child(even) {
+  background-color: rgb(216, 216, 216) !important;
 }
 .notications{
   position: absolute;

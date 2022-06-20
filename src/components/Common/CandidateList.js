@@ -6,6 +6,10 @@ export default function Candidatelist(props) {
   let CandidateData = useContext(ListContext).candidateData;
   return (
     <>
+        <center>
+          <br />
+        <h1>Candidate List</h1>
+          </center>
       <div className="mui__table">
         <table>
           <tr>
