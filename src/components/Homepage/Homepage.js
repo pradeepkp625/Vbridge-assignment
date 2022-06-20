@@ -13,7 +13,7 @@ import Badge from '@material-ui/core/Badge';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { Settings } from '@material-ui/icons';
+import { GroupAdd, ListAlt, Settings } from '@material-ui/icons';
 import SportsEsportsOutlinedIcon from '@material-ui/icons/SportsEsportsOutlined';
 import AddUser from '../AddUser/AddUser';
 import UserList from '../UserList/UserList';
@@ -226,7 +226,7 @@ class Homepage extends React.Component {
               className={this.state.activeInput === 1 ? 'active-tab' : 'tab'}
               onClick={() => this.setActiveTab(1)}
             >
-              <SportsEsportsOutlinedIcon />
+              <GroupAdd />
               &emsp; Add JD
             </li>
             <Divider />
@@ -234,7 +234,7 @@ class Homepage extends React.Component {
               className={this.state.activeInput === 2 ? 'active-tab' : 'tab'}
               onClick={() => this.setActiveTab(2)}
             >
-              <SportsEsportsOutlinedIcon />
+              <ListAlt />
               &emsp;JD List
             </li>
             <Divider />
@@ -242,7 +242,7 @@ class Homepage extends React.Component {
               className={this.state.activeInput === 3 ? 'active-tab' : 'tab'}
               onClick={() => this.setActiveTab(3)}
             >
-              <SportsEsportsOutlinedIcon />
+              <GroupAdd />
               &emsp;Add Resources
             </li>
             <Divider />
@@ -250,7 +250,7 @@ class Homepage extends React.Component {
               className={this.state.activeInput === 4 ? 'active-tab' : 'tab'}
               onClick={() => this.setActiveTab(4)}
             >
-              <SportsEsportsOutlinedIcon />
+              <ListAlt />
               &emsp;Candidate List
             </li>
             <Divider />
