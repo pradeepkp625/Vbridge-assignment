@@ -11,17 +11,9 @@ import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import Badge from '@material-ui/core/Badge';
 import MenuIcon from '@material-ui/icons/Menu';
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
-import { Search, Settings } from '@material-ui/icons';
-import SportsEsportsOutlinedIcon from '@material-ui/icons/SportsEsportsOutlined';
-import { Link } from 'react-router-dom';
-import AddUser from '../AddUser/AddUser';
-import UserList from '../UserList/UserList';
-import AddResourses from '../AddResourses/AddResourses';
+import { Settings } from '@material-ui/icons';
 import ContentComponent from './Content';
-// import GamesComponent from '../Pages/GamesComponent';
-// import gameContext from '../gameContext';
 const drawerWidth = 200;
 
 const styles = (theme) => ({
@@ -30,7 +22,7 @@ const styles = (theme) => ({
   },
   toolbar: {
     background: 'hsl(231deg 39% 17%)',
-    paddingRight: 24, // keep right padding when drawer closed
+    paddingRight: 24,
   },
   toolbarIcon: {
     display: 'flex',
