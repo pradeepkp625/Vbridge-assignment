@@ -1,15 +1,14 @@
 import { useContext } from 'react';
-import { useParams } from 'react-router-dom';
 import ListContext from '../ContextApi/ListContext';
 
 export default function Candidatelist(props) {
   let CandidateData = useContext(ListContext).candidateData;
   return (
     <>
-        <center>
-          <br />
+      <center>
+        <br />
         <h1>Candidate List</h1>
-          </center>
+      </center>
       <div className="mui__table">
         <table>
           <tr>

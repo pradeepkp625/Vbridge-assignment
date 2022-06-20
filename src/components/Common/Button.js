@@ -1,4 +1,3 @@
-import { ButtonBase } from '@material-ui/core';
 import React from 'react';
 
 const Button = ({ btnType,label,onClick}) => {

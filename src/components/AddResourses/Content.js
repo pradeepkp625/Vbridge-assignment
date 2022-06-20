@@ -3,9 +3,7 @@ import { Alert } from '@mui/material';
 import { useContext, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import Button from '../Common/Button';
-import CustomAutoComplete from '../Common/customAutocomplete';
 import CustomInput from '../Common/CustomInput';
-import CustomTextarea from '../Common/customTextarea';
 import ListContext from '../ContextApi/ListContext';
 
 export default function ContentComponent() {
