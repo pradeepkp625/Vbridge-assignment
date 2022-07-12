@@ -14,7 +14,6 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { GroupAdd, ListAlt, Settings } from '@material-ui/icons';
-import SportsEsportsOutlinedIcon from '@material-ui/icons/SportsEsportsOutlined';
 import AddUser from '../AddUser/AddUser';
 import UserList from '../UserList/UserList';
 import AddResourses from '../AddResourses/AddResourses';
@@ -199,7 +198,7 @@ class Homepage extends React.Component {
                 <img
                   className="profile"
                   src="https://d38we5ntdyxyje.cloudfront.net/858987/profile/GJQSELLC_avatar_medium_square.jpg"
-                  alt
+                  alt='img'
                 />
               </IconButton>
             </div>
@@ -265,14 +264,14 @@ class Homepage extends React.Component {
           <div className={classes.appBarSpacer} />
           <div
             className={
-              this.state.activeInput == 1 ? 'active-content' : 'content'
+              this.state.activeInput === 1 ? 'active-content' : 'content'
             }
           >
             <AddUser clicked={this.clicked} />
           </div>
           <div
             className={
-              this.state.activeInput == 2 ? 'active-content' : 'content'
+              this.state.activeInput === 2 ? 'active-content' : 'content'
             }
           >
               {/* <SimpleLineChart /> */}
@@ -280,21 +279,21 @@ class Homepage extends React.Component {
           </div>
           <div
             className={
-              this.state.activeInput == 3 ? 'active-content' : 'content'
+              this.state.activeInput === 3 ? 'active-content' : 'content'
             }
           >
               <AddResourses/>
           </div>
           <div
             className={
-              this.state.activeInput == 4 ? 'active-content' : 'content'
+              this.state.activeInput === 4 ? 'active-content' : 'content'
             }
           >
               <Candidatelist/>
           </div>
           <div
             className={
-              this.state.activeInput == 5 ? 'active-content' : 'content'
+              this.state.activeInput === 5 ? 'active-content' : 'content'
             }
           >
             <Typography variant="h4" gutterBottom component="h2">

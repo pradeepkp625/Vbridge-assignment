@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Routes, useParams } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import DetailsPage from './components/AddResourses/JDDetailPage';
 import ListContext from './components/ContextApi/ListContext';
 import Homepage from './components/Homepage/Homepage';
@@ -15,7 +15,6 @@ function App() {
   function setCandidateDatacall(data) {
     setCandidateData([...candidateData, data]);
   }
-  let { id } = useParams();
   return (
     <div className="App">
       <ListContext.Provider

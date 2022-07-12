@@ -1,4 +1,4 @@
-import { CircularProgress, TextField } from '@material-ui/core';
+import { CircularProgress } from '@material-ui/core';
 import { Alert } from '@mui/material';
 import { useContext, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -69,7 +69,7 @@ export default function ContentComponent() {
     setfileName(e.target.files[0].name);
     setresume(e.target.value);
   }
-  return context.userData.legth != 0 ? (
+  return context.userData.legth !== 0 ? (
     <>
       <div className="list__wrapper12">
         {filter?.map((item) => (
